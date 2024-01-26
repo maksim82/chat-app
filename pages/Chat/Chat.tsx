@@ -1,10 +1,10 @@
 import React, { useState, useLayoutEffect, useEffect } from "react";
 import { View, Text, Pressable, SafeAreaView, FlatList } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import { Modal } from "../../components/Modal/Modal";
+import { Modal } from "../../shared/ui/Modal/Modal";
 import { ChatItem } from "./ChatItem/ChatItem";
-import socket from "../../utils/socket";
-import { styles } from "../../utils/styles";
+import socket from "../../shared/utils/socket";
+import { styles } from "../../app/styles/styles";
 
 export const ChatPage = () => {
     const [visible, setVisible] = useState(false);

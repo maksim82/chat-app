@@ -7,7 +7,7 @@ import {
     Pressable,
     Alert,
 } from "react-native";
-import { styles } from "../../utils/styles";
+import { styles } from "../../app/styles/styles";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const AuthPage = ({ navigation }: any) => {

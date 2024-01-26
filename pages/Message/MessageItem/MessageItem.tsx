@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
-import { styles } from "../../../utils/styles";
+import { styles } from "../../../app/styles/styles";
 
 export const MessageItem = ({ item, user }: any) => {
     const status = item.user !== user;

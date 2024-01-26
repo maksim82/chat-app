@@ -2,7 +2,7 @@ import { View, Text, Pressable } from "react-native";
 import React, { useLayoutEffect, useState } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import {ParamListBase, useNavigation} from "@react-navigation/native";
-import { styles } from "../../../utils/styles";
+import { styles } from "../../../app/styles/styles";
 import {NativeStackNavigationProp} from "@react-navigation/native-stack";
 
 interface ChatItemProps {

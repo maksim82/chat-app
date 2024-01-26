@@ -1,8 +1,8 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { View, TextInput, Text, FlatList, Pressable } from "react-native";
-import socket from "../../utils/socket";
+import socket from "../../shared/utils/socket";
 import { MessageItem } from "./MessageItem/MessageItem";
-import { styles } from "../../utils/styles";
+import { styles } from "../../app/styles/styles";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const MessagingPage = ({ route, navigation }: any) => {

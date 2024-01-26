@@ -1,7 +1,7 @@
 import { View, Text, TextInput, Pressable } from "react-native";
 import React, { useState } from "react";
 import socket from "../../utils/socket";
-import { styles } from "../../utils/styles";
+import { styles } from "../../../app/styles/styles";
 
 export const Modal = ({ setVisible }: any) => {
     const closeModal = () => setVisible(false);
